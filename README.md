@@ -1,0 +1,2 @@
+# Crypto-Laggard-and-Leader-Project
+- Reasoning through the emerging trends in the financial space and identifying new opportunities - Apply machine learning algorithms to get insights of investors' behaviors and make forecasting to lower the risk of investment - Collaborating with the team and other research analysts to deliver actionable financial content to the Network based on in-depth analysis of different business’ coins
