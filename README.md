@@ -4,7 +4,7 @@
 
 - To achieve this objective, we had to finish two tasks, first, data collection; and second, calculation of accelerating rate and the price change. 
 
-- For the first step, I applied API and JSON web-scraping in Python (See file "transaction") to gather data from different sources, including Etherscan, Coingecko, and BigQuery. The transaction data I retrieved from Google cloud platform with BigQuery contain 87 Gigabytes for all crypto currency markets.
+- For the first step, I applied API and JSON web-scraping in Python (See file "transaction") to gather data from different sources, including Etherscan, Coingecko, and BigQuery. The transaction data I retrieved from Google cloud platform with BigQuery contain 87 Gigabytes for all crypto currency markets. In folder "Wallet_entrydate_in_each_market", .
 
 - Then, I cleaned and merged the datasets to get the dates, the daily price of a token, daily number of new investors, and cumulative new investors. In the next step, I used the table to calculate the accelerating rate, which is the percentage change in new investors between two different dates. The dates with higher accelerating rate were supposed to be the days that most followers entered the markets. Then we were able to find investors as potential leaders among the investors who entered the markets 7 days before these top accelerated dates. (See file "acc_rate_bigquery")
 
